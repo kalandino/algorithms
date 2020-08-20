@@ -26,9 +26,11 @@
 
 /* Вариант №2 */
 
+/* 1. */
 sum('chisla.txt');
 
 function sum($file) {
+	return;
 
 	// Читаем файл и находим числа
 	$numA = trim(file($file)[0]);
@@ -79,6 +81,57 @@ function sum($file) {
 	$fileContent .= "\n{$result}";
 	file_put_contents($file, $fileContent);
 }
+
+
+/* 2. */
+
+
+// $a = 2;
+// $n = 200;
+// $r = 1;
+
+// for ($i = 1; $i < $n; $i++) { 
+// 	$r += $r * $a;
+// }
+
+// print_r($r);
+
+
+$a = 4;
+$string = '00000000000000000000000000000000';
+
+
+while ($a) {
+
+}
+
+
+
+// Var a, n, i: integer;
+//   r: longint;
+//  begin
+//   r := 1;
+//   readln(a, n);
+//   for i := 1 to n do
+//   r := r * a;
+//   write(r);
+// end.
+
+// $a = 9;
+// $n = 5000;
+
+// for ($i = 0; $i < 9; $i++) { 
+// 	for ($i = 0; $i < 5000; $i++) {
+
+// 	}
+// }
+
+// print_r($a^$n);
+
+// 1 <= a <= 9 и 1 <= n <= 5000. 
+
+// 00000000000000000000000000000111 // 7
+
 
 
 
